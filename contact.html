@@ -2,11 +2,13 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
   <title>Contact Us</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,500&display=swap"
+      rel="stylesheet">
 
   <!--CSS Stylesheets-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -52,6 +54,9 @@
         <li class="nav-item">
           <a class="nav-link" href="./about.html">About Us</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./news.html">News</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -61,15 +66,22 @@
             <a class="dropdown-item" href="./marketing.html">Marketing</a>
             <a class="dropdown-item" href="./product.html">Product Development</a>
             <a class="dropdown-item" href="./communications.html">Communications</a>
-            <a class="dropdown-item" href="#">Media</a>
+            <!-- <a class="dropdown-item" href="#">Media</a> -->
             <a class="dropdown-item" href="./strategic.html">Strategic Services</a>
 
           </div>
         </li>
       </ul>
   </nav>
+  
+<div class='container-fluid' id="contact-text">
+  <h3>We look forward to hearing from you.</h3>
 
-  <h3>Contact Us</h3>
+    <span>Phone:     <a href="tel:8882712281">(888) 271-2281</a></span><br>
+    <span>Email:     <a href="mailto: info@broadmaxgroup.com">info@broadmaxgroup.com</a></span>
+
+
+</div>
 
   <div class="container">
     <form name="contact" method="POST" data-netlify="true">
@@ -93,7 +105,7 @@
           </div>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Product Management</label>
+            <label class="form-check-label" for="inlineCheckbox2">Product Develoopment</label>
           </div>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
@@ -113,16 +125,22 @@
       <label for="subject">How Can We Help?</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <button type="submit" class="btn btn-primary" >Send</button>
+      <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </div>
 
+
   <!-- Footer -->
 
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <a href=""><img src="./images/about/LinkedIn.png" width='35' height='auto' alt=""></a>
-      <a href=""><img src="./images/about/Twitter logo.png" width='35' height='auto' alt=""></a>
+  <footer id="footer">
+    <div>
+      <a href="mailto: info@broadmaxgroup.com"><img src="./images/icons/Icons/Email.png" width='35' height='auto'
+          alt=""></a>
+      <a href="https://www.linkedin.com/company/broadmax-group/about/?viewAsMember=true" target="_blank"><img
+          src="./images/about/LinkedIn.png" width='35' height='auto' alt=""></a>
+      <a href="https://twitter.com/broadmaxgroup " target="_blank"><img src=" ./images/about/Twitter logo.png"
+          width='35' height='auto' alt=""></a>
+
       <p>© Copyright 2020 Broadmax</p>
     </div>
   </footer>
