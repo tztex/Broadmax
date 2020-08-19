@@ -60,14 +60,19 @@ input[type=submit]:hover {
 .nav-link {
   font-size: 1.2rem;
   font-family: Montserrat;
-
-.foot {
-  margin: 20px 10px;
 }
 
-#footer {
-  text-align: center;
-  margin-top: 5%;
+
+
+.contact-text1 {
+
+  padding-top: 50px !important;
+}
+
+#footer-contact {
+  text-align: center !important;
+  padding: 20px 10px !important;
+
 }
 
   .contact-text {
@@ -98,8 +103,7 @@ input[type=submit]:hover {
       text-align: center;
     }
 
-    #contact-text {
-
-      padding-top: 20% !important;
-    }
+    
   }
+
+  
