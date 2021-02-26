@@ -416,7 +416,7 @@ header {
 
 .strat-list {
     font-family: "Roboto-Black";
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: left;
 }
 
@@ -484,6 +484,13 @@ ul {
     display: none;
 }
 
+.blogdate {
+    color: blue;
+}
+
+.blogs {
+    text-align: left;
+}
 @media (max-width:629px) {
     #page-img {
         display: none;
